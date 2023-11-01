@@ -1,6 +1,4 @@
-//Ghulam Murtaza
-//20i-0957
-//program1 sum of all rows
+
 
 #include <stdio.h>
 #include <pthread.h>
