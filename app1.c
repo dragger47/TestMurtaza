@@ -19,6 +19,10 @@ typedef struct {
 } ThreadInfo;
 
 
+void *my_new_function_that_wont_break_anything(void *arg) {
+    ThreadInfo *info = (ThreadInfo *)arg;
+}
+
 void fill_matrix() {
     // Random number init with seed time
     srand((unsigned int)time(NULL));
